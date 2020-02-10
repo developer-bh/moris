@@ -1,0 +1,113 @@
+// Careers
+
+.career-features
+  padding: 240px 0 100px 0
+  h1
+    font-size: 40px
+    font-weight: 500
+    margin-bottom: 30px
+  small
+    p
+      max-width: 400px
+      margin: 0 auto 70px auto
+  &--wrapper
+    justify-content: center
+    flex-wrap: wrap
+  &--item
+    text-align: center
+    .icon
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 72px
+      height: 72px
+      border-radius: 50%
+      background: #f5f7f9
+      margin: 0 auto 20px auto
+      img
+        max-height: 32px
+    h4
+      margin-bottom: 18px
+    small
+      p
+        max-width: 290px
+
+// Vacancies
+
+.vacancies
+  background: #f1f3f5
+  padding: 130px 0
+  h2
+    margin-bottom: 30px
+  small
+    p
+      max-width: 370px
+  &--wrapper
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    margin-top: 100px
+  &--item
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 510px
+    max-width: 100%
+    border-bottom: 1px solid rgba(17, 19, 20, 0.11)
+    padding-bottom: 30px
+    margin-bottom: 85px
+    position: relative
+    &:hover
+      transition: $transition
+      ul
+        opacity: .1
+      .read-more
+        opacity: 1
+    ul
+      transition: $transition
+      display: flex
+      flex-wrap: wrap
+      li
+        margin-left: 50px
+        color: rgba(0, 0, 0, 0.8)
+    .read-more
+      position: absolute
+      right: 0
+      opacity: 0
+      transition: $transition
+
+// Career info
+
+.career-info
+  padding: 200px 0 100px 0
+  max-width: 1920px
+  margin: 0 auto
+  .rectangles
+    position: initial
+    svg
+      position: absolute
+      left: 50%
+      top: 50%
+      z-index: -1
+  &--item
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 100px
+    &:nth-of-type(odd)
+      img
+        order: 2
+      .text
+        order: 1
+    img
+      max-width: 570px
+    .text
+      width: 100%
+      max-width: 435px
+      margin: 0 auto
+      h2
+        font-size: 40px
+        margin-bottom: 30px
+      small
+        p
+          margin-bottom: 70px

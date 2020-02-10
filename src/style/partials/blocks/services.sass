@@ -1,0 +1,25 @@
+.services
+  max-width: 1920px
+  margin: 0 auto
+  &-wrapper
+    display: flex
+    justify-content: center
+  &-item
+    display: flex
+    align-items: flex-end
+    width: 16.66%
+    height: 580px
+    position: relative
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    @include hover
+    h3
+      position: absolute
+      bottom: 18px
+      right: 36px
+      margin: 0
+      text-transform: none
+      color: $color_white
+      writing-mode: tb-rl
+      transform: rotate(-180deg)

@@ -1,0 +1,50 @@
+//Contacts
+
+.contacts
+  padding-top: 80px
+  &-wrapper
+    &:nth-of-type(even)
+      background: #f6f8f6
+  &-item
+    display: flex
+    justify-content: space-between
+    padding: 120px 0
+    &--left
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      margin-right: 50px
+      h3
+        text-transform: none
+    &--right
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      width: 600px
+      max-width: 100%
+      h4
+        width: 100%
+      .item
+        width: 30%
+        max-width: 100%
+        margin-bottom: 60px
+        &:nth-of-type(4)
+          width: 100%
+          display: flex
+          flex-wrap: wrap
+          margin-bottom: 0
+        h4
+          margin-bottom: 10px
+        p,
+        a
+          font-size: 14px
+          font-weight: 300
+          color: rgba(0, 0, 0, 0.8)
+        a
+          display: inline-block
+        .info
+          margin-right: 30px
+          .name
+            text-transform: uppercase
+            font-weight: 300
+            margin-bottom: 0

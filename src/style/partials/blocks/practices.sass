@@ -1,0 +1,194 @@
+// Practices
+
+.practices
+  padding: 220px 0 100px 0
+  .rectangles
+    svg
+      position: absolute
+      left: 15%
+      bottom: 200px
+  .container
+    max-width: 1920px
+    padding: 0 60px
+    .row
+      justify-content: space-between
+  &-nav
+    ul
+      padding: 0
+      margin: 0
+      max-width: 265px
+      li
+        margin-bottom: 40px
+        a
+          color: rgba(0, 0, 0, 0.31)
+          &:hover,
+          &.active
+            color: $color_blue
+  &-wrapper
+    max-width: 700px
+    display: none
+  &-text
+    margin-bottom: 100px
+  &-phrase
+    display: flex
+    justify-content: space-between
+    background: $color_blue
+    box-shadow: 0 4px 48px rgba(0, 0, 0, 0.08)
+    margin-bottom: 100px
+    .avatar
+      width: 151px
+      height: 151px
+      background-size: cover
+      background-position: center
+    .text
+      width: calc(100% - 151px)
+      padding: 35px 110px 0 35px
+      p
+        font-size: 14px
+        font-weight: 500
+        line-height: 132%
+        text-transform: uppercase
+        margin-bottom: 12px
+        color: white
+      h5
+        color: rgba(255, 255, 255, 0.6)
+  &-awards
+    margin-bottom: 85px
+    h3
+      text-transform: none
+      margin-bottom: 10px
+    ul
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      li
+        width: 165px
+        max-width: 100%
+        margin-bottom: 15px
+        img
+          max-height: 72px
+          margin-bottom: 5px
+        p
+          font-size: 14px
+          font-weight: 300
+          line-height: 164%
+          letter-spacing: 0.025em
+          color: rgba(0, 0, 0, 0.40)
+          margin-bottom: 0
+          text-transform: none
+  &-services
+    margin-bottom: 100px
+    h3
+      text-transform: none
+      margin-bottom: 40px
+    .accordion
+      .card
+        border: 0
+        border-radius: 0
+        margin-bottom: 10px
+        .card-header
+          border-radius: 0
+          padding: 13px 14px 13px 25px
+          margin-bottom: 0
+          background: $color_blue
+          box-shadow: 0 4px 48px rgba(0, 0, 0, 0.08)
+          .collapsed
+            i
+              transform: rotate(0deg)
+          button
+            display: flex
+            align-items: center
+            justify-content: space-between
+            width: 100%
+            padding: 0
+            margin: 0
+            font-size: 14px
+            line-height: 132%
+            letter-spacing: 0.08em
+            text-transform: uppercase
+            color: $color_white
+            &:hover,
+            &:focus,
+            &:active
+              text-decoration: none
+            i
+              display: flex
+              align-items: center
+              justify-content: center
+              width: 30px
+              height: 30px
+              border: 1px solid rgba(255, 255, 255, 0.05)
+              border-radius: 50px
+              transform: rotate(180deg)
+        .card-body
+          padding: 15px
+          ul
+            padding-left: 40px
+            margin-bottom: 15px
+            list-style: disc
+            li
+              color: $color_black
+              font-weight: 300
+              text-transform: none
+  &-partner
+    margin-bottom: 100px
+    h3
+      text-transform: none
+      margin-bottom: 40px
+    .image
+      img
+        max-width: 295px
+    .text
+      padding-top: 50px
+      .name
+        color: $color_blue
+        font-weight: 600
+        margin-bottom: 12px
+      .position
+        font-weight: 300
+        font-size: 14px
+        line-height: 164%
+        letter-spacing: 0.025em
+        margin-bottom: 25px
+        color: rgba(0, 0, 0, 0.51)
+      small
+        p
+          margin-bottom: 50px
+  &-projects
+    .top
+      display: flex
+      align-items: center
+      justify-content: space-between
+      margin-bottom: 40px
+    h3
+      text-transform: none
+    &-wrapper
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+    &-item
+      width: 100%
+      max-width: 346px
+      padding: 24px
+      margin-bottom: 8px
+      background: #f5f7f9
+      .top
+        display: flex
+        align-items: flex-start
+        justify-content: space-between
+        margin-bottom: 20px
+        h4
+          margin-bottom: 2px
+        p
+          font-weight: 300
+          font-size: 14px
+          line-height: 164%
+          letter-spacing: 0.025em
+          color: rgba(17, 19, 20, 0.5)
+          margin-bottom: 0
+      small
+        p
+          margin-bottom: 28px
+
+
+

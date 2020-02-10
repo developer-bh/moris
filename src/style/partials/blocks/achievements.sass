@@ -1,0 +1,55 @@
+// Achievements
+
+.achievement
+  padding: 200px 0 100px 0
+  &-wrapper
+    display: flex
+    align-items: center
+  &-slider
+    user-select: text!important
+    .slick-list.draggable
+      user-select: text
+  &-item
+    width: 50%
+    max-width: 100%
+    .bar
+      display: flex
+      align-items: center
+      margin-bottom: 100px
+      .slick-left
+        margin-right: 15px
+      .slick-right
+        padding-left: 15px
+        &:hover
+          padding-left: 25px
+      .slick-left,
+      .slick-right
+        cursor: pointer
+        transition: $transition
+        &:hover
+          transition: $transition
+          opacity: 0.6
+      .current-count--ach
+        margin: 0 15px 0 0
+        font-size: 12px
+        color: $color_blue
+      .total_count
+        margin: 0 0 0 15px
+        font-size: 12px
+        color: rgba(0, 0, 0, 0.2)
+    &:first-of-type
+      display: flex
+      justify-content: space-between
+      .image
+        width: 49.5%
+        max-width: 100%
+        img
+          max-width: 100%
+    &:nth-of-type(2)
+      padding-left: 110px
+      h2
+        margin-bottom: 30px
+      small
+        p
+          max-width: 385px
+          margin-bottom: 60px
